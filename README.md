@@ -1,93 +1,98 @@
-# oMesh Marketplace – Public Media & Technical Overview
-This repository contains visual assets (screenshots, UI previews) of the oMesh Marketplace — including the live web version, the new React web app (in development), and our React Native mobile app for iOS and Android.
+# 🛒 oMesh Marketplace – Public Media & Technical Overview
 
-Additionally, this README outlines oMesh's architecture, AI infrastructure, business model, and future vision.
+This repository contains visual assets (screenshots, UI previews) of the **oMesh Marketplace** — including the **live production site**, the **next-generation React web app (in development)**, and the **React Native mobile app** for iOS and Android.
 
-🛍️ About oMesh
-oMesh is a scalable, AI-powered e-commerce marketplace designed for ultra-fast delivery and frictionless seller onboarding. Initially launched in Panama, the platform combines intelligent logistics and in-house AI infrastructure to offer a seamless and localized experience for buyers and sellers.
+In addition, this README outlines the platform’s architecture, AI infrastructure, business model, and long-term vision.
 
-🧠 AI Infrastructure
-All AI models are self-hosted on custom GPU servers, with the ability to scale elastically via cloud GPU rental. Our AI tools include:
+---
 
-Semantic Search Engine (multilingual, vector-based)
+## 🧾 About oMesh
 
-LLM-Powered Listing Generator (automated product descriptions)
+**oMesh is a scalable, AI-powered e-commerce marketplace** designed for ultra-fast delivery and seamless onboarding for sellers. Initially launched in Panama, oMesh combines self-hosted AI tools with an integrated fulfillment network to enable frictionless digital commerce.
 
-AI Agent for customer service and product guidance
+---
 
-Speech-to-Text & Text-to-Speech Bots for WhatsApp, Telegram, web, and mobile
+## 🧠 AI Infrastructure
 
-Translation Engine to localize listings in English, Spanish, and Chinese
+All models are self-hosted on in-house GPU servers, with dynamic GPU rental options for scaling workloads. Our current AI capabilities include:
 
-We primarily use open-source models under MIT or Apache-2.0 licenses.
+- **Semantic Search Engine** (vector-based, multilingual)
+- **Product Listing Generator** powered by LLMs
+- **AI Agent** for customer service and product recommendations
+- **Speech-to-Text and Text-to-Speech** bots (for WhatsApp, Telegram, Web, App)
+- **Translation Model** for product listings in English, Spanish, and Chinese
 
-⚙️ Tech Stack
-Frontend: React (Web), React Native (Mobile)
+> Most AI tools are based on open-source models licensed under **MIT** or **Apache 2.0**.
 
-Backend: Node.js (REST APIs, OAuth, Webhooks)
+---
 
-AI & Tooling: Python (FastAPI, LLM integrations, STT/TTS, scheduling)
+## ⚙️ Tech Stack
 
-Databases: MariaDB, MongoDB, Weaviate (vector DB)
+- **Frontend:** React (web), React Native (mobile)
+- **Backend:** Node.js (REST API, OAuth, Webhooks)
+- **AI Infrastructure:** Python (FastAPI, custom model servers)
+- **Databases:** MariaDB, MongoDB, Weaviate (for vector search)
+- **Infrastructure:** Docker, GitHub Actions (CI/CD), Kubernetes (planned)
+- **Multilingual Support:** English, Spanish, Chinese
 
-Orchestration: Kubernetes (soon in production)
+---
 
-CI/CD: Docker, GitHub Actions, internal DevOps tools
+## 🚚 Flash Fulfillment Strategy
 
-🚚 Flash Fulfillment Strategy
-oMesh operates a Flash Fulfillment Center network — small, strategically placed warehouses in dense urban areas. This enables:
+oMesh operates a **Flash Fulfillment Center** network — small warehouse hubs located in high-density urban areas. This enables:
 
-Same-day or even minute-level delivery in city zones
+- **Same-day and even sub-hour delivery** in select city zones
+- **Payment on Delivery** (zero risk for the buyer)
+- Route optimization and smart product bundling for efficiency
 
-Cash or Card on Delivery (zero risk for buyers)
+---
 
-Smart route planning and order grouping
+## 💸 Business Model (for Sellers)
 
-💸 Business Model (for Sellers)
-Zero subscription cost
+- **No subscription fees**
+- **Flat 10% commission per sale**
+- **$2 per product shipping & handling (includes fulfillment)**
+- **Free delivery** to most Panama addresses when buyers order ~3–4 items
 
-Flat 10% commission per sale
+---
 
-$2 flat shipping fee per product (includes fulfillment)
+## 🌍 Global Vision
 
-Free shipping to most Panama addresses when customers buy ~3–4 items
+oMesh is built to scale in three stages:
 
-🌍 Global Vision
-oMesh is designed to scale in 3 phases:
+1. **Panama** – fully integrated logistics and AI-powered marketplace (active)
+2. **Countries lacking fulfillment-first marketplaces**
+3. **Global** – open commerce infrastructure powered by AI
 
-Panama (active) – full logistics & marketplace integration
+---
 
-Emerging countries without fulfillment-enabled marketplaces
+## 📷 Screenshots
 
-Global – oMesh as an open, AI-first commerce infrastructure
+The `/screenshots/` folder contains:
 
-📷 Screenshots
-Located in /screenshots/, the media includes:
+- Current and future Web UI
+- Mobile App (React Native)
+- Admin Panels and Fulfillment Dashboards
+- Early previews of upcoming features
 
-Web & Mobile UI
+---
 
-Fulfillment dashboards
+## 📣 Contact & License
 
-Admin & listing views
+This repository is provided as a **public showcase** for partners, investors, and clients.
 
-Future web and app UI concepts (React / React Native)
+- **License:** CC BY-NC 4.0 for all media assets
+- **Contact:** [info@nordhain.com](mailto:info@nordhain.com)
 
-📣 Contact & License
-This repository is intended for investors, partners, and clients interested in oMesh technology, design, and architecture.
+---
 
-Media license: CC BY-NC 4.0
+## 🧑‍💻 Consulting & Collaboration
 
-Contact: hello@omesh.com.pa
+As the founder and CTO of oMesh, I’m also available for select projects, including:
 
-🧑‍💻 Services & Consulting
-As the founder and CTO of oMesh, I also offer services in:
+- AI infrastructure (LLMs, semantic search, chatbots)
+- E-commerce architecture (React, Node.js, Kubernetes)
+- Marketplace integrations (payments, delivery APIs, multilingual systems)
+- Full-stack development and technical leadership
 
-AI systems development
-
-Full-stack e-commerce architecture
-
-Marketplace infrastructure & logistics tech
-
-Custom integrations for LLMs, payment, fulfillment, and voice/chatbots
-
-Reach out if you're looking for a senior-level developer or system architect.
+Feel free to reach out if you're looking for custom development, AI strategy, or platform consulting.
