@@ -1,4 +1,4 @@
-📄 oMesh Marketplace – Public Media & Technical Overview
+# oMesh Marketplace – Public Media & Technical Overview
 This repository contains visual assets (screenshots, UI previews) of the oMesh Marketplace — including the live web version, the new React web app (in development), and our React Native mobile app for iOS and Android.
 
 Additionally, this README outlines oMesh's architecture, AI infrastructure, business model, and future vision.
